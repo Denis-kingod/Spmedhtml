@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -59,10 +61,67 @@ main{
     margin-top: 68px;
 }
 
-.Banner1{
+.container_participar{
     height: 674px;
+    background-image: url(../Img/fund\ banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
+.cor_{
+    background: rgba(221, 221, 221, 0.55);
+    height: 500px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_email{
+    display: flex;
+    flex-direction: column;
+
+}
+
+form{
+height: 100px;
+width: 50px;
+display : flex;
+flex-direction: column;
+justify-content : space-between;
+align-items: center;
+padding: 10px  30px ;
+}
+
+.espaço_entre {
+    width: 100%;
+    height: 85px;
+    display : flex;
+    flex-direction: column;
+    justify-content : space-between;
+}
+
+.btn_cadastrar {
+    width: 257px;
+    height: 40px;
+    background-color: #001F70 ;
+    font-family: Roboto;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px ;
+    font-weight: bold;
+    padding: 5px  65px ;
+    border: none;
+}
 
 
 footer{
